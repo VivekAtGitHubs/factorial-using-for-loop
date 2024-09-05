@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() 
+{
+    int n,i;
+    int fac=1;
+    printf("enter number  to find fac");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        fac*=i;
+        
+    }
+    printf("%d\n",fac);
+
+    return 0;
+}
